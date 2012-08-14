@@ -1,0 +1,109 @@
+# Localization file for English. 
+
+en:
+
+  application_controller_no_access: "not an admin"
+
+  apps_controller_spec_repo: "specify repo or archive build"
+  apps_controller_app_updated: "Your application has updated and a build has been queued"
+  apps_controller_repo_failed: "Repo update failed"
+  apps_controller_repo_updated: "Your repository has been updated and a build has been queued"
+  apps_controller_unable_create: "Unable to create app: #{ msg }"
+
+  keys_controller_upload_failed: "upload failed; please try again"
+  keys_controller_error: "Error: #{ e.message }"
+  keys_controller_error_nokey: "Error: no key platform specified"
+
+  people_links_controller_agree: "You must agree to the terms of service"
+  people_links_controller_already_link: "That email address is already linked to a PhoneGap:Build account."
+  people_links_controller_spec_email: "Please select a valid email address."
+
+  people_omni_callbacks_controller_auth_fail: "Could not authorize you because \"#{ error.humanize.titleize }\""
+  people_omni_callbacks_controller_link_success: "Your #{ get_provider_name(session['link.data'].provider) } account has been linked successfully."
+  people_omni_callbacks_controller_acct_already_link: "Your account has already been linked with an #{ get_provider_name(session['link.data'].provider) } account."
+  people_omni_callbacks_controller_email_already_link: "That email address is already linked to a PhoneGap:Build account."
+  people_omni_callbacks_controller_acct_already_link_omni: "Your account has already been linked with an #{ get_provider_name(omniauth_data.provider) } account."
+  people_omni_callbacks_controller_link_success_omni: "Your #{ get_provider_name(omniauth_data.provider) } account has been linked successfully."
+  people_omni_callbacks_controller_omni_link_already1: "That #{ get_provider_name(omniauth_data.provider) } account is already linked to a PhoneGap:Build account."
+  people_omni_callbacks_controller_omni_link_already2: "That #{ get_provider_name(omniauth_data.provider) } account is already linked to a PhoneGap:Build account."
+  people_omni_callbacks_controller_omni_link_already3: "That #{ get_provider_name(omniauth_data.provider) } account is already linked to your PhoneGap:Build account."
+
+  people_registrations_controller_agree: "You must agree to the terms of service"
+  people_registrations_controller_duplicate: "Duplicate Entry - check your email"
+
+  people_sessions_controller_link_success: "Your #{ get_provider_name(session['link.data'].provider) } account has been linked successfully."
+  people_sessions_controller_link_already: "Your account has already been linked with an #{ get_provider_name(session['link.data'].provider) } account"
+
+  api_api_controller_parse: "unable to parse JSON"
+  api_api_controller_invalid_data: "invalid data parameter"
+  api_api_controller_app_not_found: "app #{ id_to_use } not found"
+  api_api_controller_key_not_found: "could not find #{ platform } key ##{ key_id }"
+
+  app_apps_controller_no_create: "no create_method specified: file, remote_repo, or hosted_repo"
+  app_apps_controller_no_file: "no file attached"
+  app_apps_controller_no_repo: "no repo specified"
+  app_apps_controller_cannot_pull: "app #{ app.id } is file-backed; can't pull"
+  app_apps_controller_upload_blocked: "app #{ app.id } is repo-backed; doesn't accept file uploads"
+  app_apps_controller_dl_unavailable: "app ##{ app.id } download unavailable for #{ platform }"
+  app_apps_controller_app_deleted: "app #{ params[\:id] } deleted"
+  app_apps_controller_key_not_found: "key #{ id } for #{ platform } not found"
+
+  app_collaborators_controller_need_email: "need email for new collaborator"
+  app_collaborators_controller_need_role: "need role for new collaborator"
+  app_collaborators_controller_invalid_role: "#{ data[\"role\"] } is not a valid role"
+  app_collaborators_controller_cannot_chg_email: "cannot change collaborator email"
+  app_collaborators_controller_removed_from_app_team: "#{ project.person.email } removed from app #{ app.id }"
+  app_collaborators_controller_no_permission: "current user doesn\'t have these permissions over this app"
+  app_collaborators_controller_project_not_found: "project #{ params[\:id] } not found"
+
+  app_icons_controller_no_icon: "No icon available for app #"
+
+  app_keys_controller_key_deleted: "#{ params[\:platform] } key #{ params[\:id] } deleted"
+
+
+  helpers_apps_helper_rebuild: "rebuild"
+  helpers_apps_helper_signing_key: "You must provide a signing key, first"
+  helpers_apps_helper_download: "Download"
+  helpers_apps_helper_error_more_info: "more info"
+  helpers_apps_helper_warning_more_info: "more info"
+  helpers_apps_helper_build_failed: "Oh geez. Your build failed."
+  helpers_apps_helper_error: "#{ platform_name(platform) } #{ kind } Error"
+  helpers_apps_helper_server_problem: "Sorry, but a problem occurred on the build server"
+  helpers_apps_helper_notify: "It\'s not you, it\'s us <a href=\"#\" class=\"button\" id=\"notify-btn\" data-showDialog=\"#notifyDialog\">notify us</a>"
+  helpers_apps_helper_fix: "You can fix this <a href='#{ error_link app.id, err }'>here</a>"
+  helpers_apps_helper_last_built: "last built"
+  helpers_apps_helper_created: "created on"
+
+  helpers_stumpy_helper_yaml: "YAML Exception reading #{page}: #{e.message}"
+
+  includes_gap_app_analysis_invalid_chars: "invalid characters: #{file}"
+  includes_gap_app_analysis_invalid_dir: "invalid directory name: #{dir}"
+  includes_gap_app_analysis_icon_too_large: "icon too large\: #{ self.icon }"
+
+  includes_gap_app_filesystem_not_file: "input is not a file"
+  includes_gap_app_filesystem_invalid_filetype: "invalid filetype"
+  includes_gap_app_filesystem_file_too_large: "File is too large"
+
+  includes_gap_app_git_gap_set_username: "a username must be set"
+  includes_gap_app_git_gap_need_ssh: "SSH public key must be present"
+  includes_gap_app_git_gap_set_title: "a title must be set"
+
+  includes_gap_app_repository_url_not_supported: "Private repository URLs not supported - try removing"
+  includes_gap_app_repository_repo_took_too_long: "repo took too long to access"
+  includes_gap_app_repository_no_remote_access: "could not access remote #{ type } repository #{ url }"
+  includes_gap_app_repository_enter_vcs_url: "please enter a VCS repo URL"
+  includes_gap_app_repository_repo_took_too_long2: "repo took too long to access"
+  includes_gap_app_repository_unable_to_clone: "unable to clone/checkout repository #{ repo_url }"
+  includes_gap_app_repository_index_html_not_found: "Error index.html not found"
+
+  includes_upload_invalid_icon: "invalid icon file: #{ filename }"
+
+  includes_jobs_gitolite_add_person_added_user: "added user #{ @username }"
+
+  includes_add_repo_added_repo: "added repo #{ @repo_uuid }"
+
+  mailers_error_mailer_failed_subject: "[PhoneGap Build] App ##{ @app.id } Has Failed on #{ platform }!"
+
+  mailers_project_mailer_added_title: "[PhoneGap Build] You have been added to #{ title }"
+
+  views_application_terms: "Copyright © 2012 Adobe Systems Incorporated. All rights reserved.<br>Use of this website signifies your agreement to the <a href=\"http://www.adobe.com/misc/terms.html\" target=\"_blank\" style=\"color: black; text-decoration: underline;\">Terms of Use</a> and <a href=\"http://adobe.com/privacy\" target=\"_blank\" style=\"color: black; text-decoration: underline;\">Privacy Policy and Cookies</a>"

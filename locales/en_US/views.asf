@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd">
+<asf version="1.0" locale="en_US" xmlns="http://ns.adobe.com/asf">
+
+
+ <str name="application_controller_no_access">
+    <desc>string definition</desc>
+    <val>not an admin</val>
+  </str>
+
+ <str name="views/tools/application/_terms/terms_and_conditions">
+    <desc>string definition</desc>
+    <val>Copyright © 2012 Adobe Systems Incorporated. All rights reserved.</val>
+ </str>  
+
+ <str name="views/tools/application/_terms_use_of_website">
+    <desc>string definition</desc>
+    <val>Use of this website signifies your agreement to the 
+    </val>
+ </str>
+
+ <str name="views/tools/application/_terms_use_of_website_terms">
+    <desc>string definition</desc>
+    <val>Terms of Use</val>
+ </str>
+
+ <str name="views/tools/application/_terms_use_of_website_and">
+    <desc>string definition</desc>
+    <val> and </val>
+ </str>
+
+ <str name="views/tools/application/_terms_use_of_website_privacy">
+    <desc>string definition</desc>
+    <val>Privacy Policy and Cookies
+    </val>
+ </str>
+
+ <str name="views/tools/apps/_add_enable_debugging">
+    <desc>string definition</desc>
+    <val>enable debugging</val>
+ </str>
+
+ <str name="views/tools/apps/_add_make_app_private">
+    <desc>string definition</desc>
+    <val>make app private</val>
+ </str>
+
+ <str name="views/tools/apps/_add_select_upload_method">
+    <desc>string definition</desc>
+    <val>select upload method</val>
+ </str>
+
+ <str name="views/tools/apps/_add_create_a_new_git_repository">
+    <desc>string definition</desc>
+    <val>create a new git repository</val>
+ </str>
+
+ <str name="views/tools/apps/_add_hosted_on_PhoneGap.com">
+    <desc>string definition</desc>
+    <val>hosted on PhoneGap.com</val>
+ </str>
+
+<str name="views/tools/apps/_add_pull_from_a_gitsvn_repo_url">
+    <desc>string definition</desc>
+    <val>pull from a git/svn repo url</val>
+ </str>
+
+<str name="views/tools/apps/_add_upload_archive_or_indexhtml_file">
+    <desc>string definition</desc>
+    <val>upload an archive or index.html file</val>
+ </str>
+
+ <str name="views/tools/apps/_add_Cancel_button">
+    <desc>string definition</desc>
+    <val>Cancel</val>
+ </str>
+
+ <str name="views/tools/apps/_add_Create_button">
+    <desc>string definition</desc>
+    <val>Create</val>
+ </str>
+
+ <str name="views/tools/apps/_keys_row_select_key">
+    <desc>string definition</desc>
+    <val>Select a Key</val>
+ </str>
+
+ <str name="views/tools/apps/_keys_row_add_key">
+    <desc>string definition</desc>
+    <val>add a key ...</val>
+ </str>
+
+</asf>
